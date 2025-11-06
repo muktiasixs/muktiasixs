@@ -2,7 +2,7 @@
 
 ###
 
-<h5 align="left">I'm a Computer Science student at BINUS University who’s passionate about Machine Learning, Frontend Development, and exploring how technology can solve real-world problems.<br><br>💡 What I do:<br><br>Build responsive and interactive web applications using React, Tailwind, and TypeScript<br><br>Experiment with Machine Learning models using Python, Pandas, and Scikit-learn<br><br>Collaborate on projects involving data analysis and UI/UX design (often with Figma!)<br><br>🚀 Current focus:<br><br>Improving skills in AI-driven applications and data visualization<br><br>Learning more about system design and cloud deployment</h5>
+<h5 align="left">I'm a Computer Science student at BINUS University who’s passionate about Machine Learning, Frontend Development, and exploring how technology can solve real-world problems.<br><br>💡 What I do:<br><br>Build responsive and interactive web applications using React, Tailwind, and TypeScript<br><br>Experiment with Machine Learning models using Python <br><br>Collaborate on projects involving data analysis and UI/UX design (often with Figma!)<br><br>🚀 Current focus:<br><br>Improving skills in AI-driven applications and data visualization<br><br>Learning more about system design and cloud deployment</h5>
 
 ###
 
