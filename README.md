@@ -66,8 +66,7 @@
 
 ###
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=muktiasixs&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=rose_pine&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  />
+<div align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=muktiasixs&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=rose_pine&hide_border=true&order=2" height="150" alt="languages graph"  />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=muktiasixs&radius=16&theme=modern-lilac&area=true&order=5&hide_border=true" height="300" alt="activity-graph graph"  />
 </div>
@@ -103,6 +102,14 @@
 
 <div align="center">
   <img src="https://count.getloli.com/@:muktiasixs?theme=gelbooru&padding=7&offset=2&scale=0.8&align=top&pixelated=1&darkmode=auto"  />
+</div>
+
+###
+
+<div align="center">
+  <a href="https://open.spotify.com/user/Xcnez">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=Xcnez&count=5&unique=false" alt="Spotify recently played"  />
+  </a>
 </div>
 
 ###
