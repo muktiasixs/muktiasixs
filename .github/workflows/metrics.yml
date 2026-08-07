@@ -56,7 +56,6 @@ jobs:
         env:
           # Tambahkan secrets jika plugin eksternal butuh (beri nanti)
           ANILIST_TOKEN: ${{ secrets.ANILIST_TOKEN }}
-          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
 
       - name: Commit generated files (fallback)
         uses: stefanzweifel/git-auto-commit-action@v4
