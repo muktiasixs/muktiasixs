@@ -18,19 +18,16 @@
 ###
 
 <!-- gambar 1 -->
-<img align="left" width="400" src="https://media1.tenor.com/m/zIB1C1lp0bYAAAAC/gumi-sakura-gumi-server.gif"  />
-
-###
-<!-- gambar 2 -->
-<div align="center">
-  <img src="https://count.getloli.com/@:muktiasixs?theme=gelbooru&padding=7&offset=2&scale=0.8&align=top&pixelated=1&darkmode=auto"  />
-</div>
+<img align="left" width="450" src="https://media1.tenor.com/m/zIB1C1lp0bYAAAAC/gumi-sakura-gumi-server.gif"  />
 
 ###
 
 <!-- gambar 3 -->
-<p align="left" width="400" >
-  <img src="./metrics.svg" alt="Metrics" />
-</p>
+  <img align="right" width="450" src="./metrics.svg" alt="Metrics" />
+  
+###
 
+<!-- gambar 2 -->
+  <img align="left" width="450" src="https://count.getloli.com/@:muktiasixs?theme=gelbooru&padding=7&offset=2&scale=0.8&align=top&pixelated=1&darkmode=auto"  />
+  
 ###
