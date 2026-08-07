@@ -29,7 +29,7 @@
 ###
 
 <!-- gambar 3 -->
-<p align="left">
+<p align="left" width="400" >
   <img src="./metrics.svg" alt="Metrics" />
 </p>
 
