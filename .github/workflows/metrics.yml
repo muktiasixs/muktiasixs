@@ -1,11 +1,15 @@
 name: Generate metrics
 
+# Beri izin write ke contents supaya action boleh membuat/memperbarui file
+permissions:
+  contents: write
+
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch:
   schedule:
     - cron: '0 3 * * *'
-  workflow_dispatch:
+  push:
+    branches: [ main ]
 
 jobs:
   generate:
@@ -16,9 +20,19 @@ jobs:
           persist-credentials: true
 
       - name: Run lowlighter/metrics
-        uses: lowlighter/metrics@v3.34   # <- pakai tag rilis yang valid (atau @latest)
+        uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}   # <- pastikan token committer ada dan punya write izin
           config: metrics.yml
           filename: metrics.svg
-          # Tambahkan secrets ini nanti jika diperlukan oleh plugin (Anda bilang akan beri kalau perlu)
+        env:
+          ANILIST_TOKEN: ${{ secrets.ANILIST_TOKEN }}
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+
+      - name: Commit generated files (fallback)
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore(metrics): update generated metrics"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
