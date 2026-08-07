@@ -18,7 +18,7 @@
 ###
 
 <!-- gambar 1 -->
-<img align="left" width="500" src="https://media1.tenor.com/m/zIB1C1lp0bYAAAAC/gumi-sakura-gumi-server.gif"  />
+<img align="left" width="400" src="https://media1.tenor.com/m/zIB1C1lp0bYAAAAC/gumi-sakura-gumi-server.gif"  />
 
 ###
 <!-- gambar 2 -->
