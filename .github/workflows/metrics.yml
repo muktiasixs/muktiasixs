@@ -21,5 +21,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           config: metrics.yml
           filename: metrics.svg
-        env:
           # Tambahkan secrets ini nanti jika diperlukan oleh plugin (Anda bilang akan beri kalau perlu)
