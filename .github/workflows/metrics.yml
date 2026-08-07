@@ -16,19 +16,12 @@ jobs:
           persist-credentials: true
 
       - name: Run lowlighter/metrics
-        uses: lowlighter/metrics@v1
+        uses: lowlighter/metrics@v3.34   # <- pakai tag rilis yang valid (atau @latest)
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           config: metrics.yml
+          filename: metrics.svg
         env:
-          # Tambahkan secrets di repo jika diperlukan oleh tool; hapus yang tidak perlu
+          # Tambahkan secrets ini nanti jika diperlukan oleh plugin (Anda bilang akan beri kalau perlu)
           ANILIST_TOKEN: ${{ secrets.ANILIST_TOKEN }}
-          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
-          LASTFM_API_SECRET: ${{ secrets.LASTFM_API_SECRET }}
-
-      - name: Commit generated files
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "chore(metrics): update generated metrics"
-          commit_user_name: "github-actions[bot]"
-          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          LASTFM_API_KEY: ${{*](#)
