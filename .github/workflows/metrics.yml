@@ -23,5 +23,3 @@ jobs:
           filename: metrics.svg
         env:
           # Tambahkan secrets ini nanti jika diperlukan oleh plugin (Anda bilang akan beri kalau perlu)
-          ANILIST_TOKEN: ${{ secrets.ANILIST_TOKEN }}
-          LASTFM_API_KEY: ${{*](#)
